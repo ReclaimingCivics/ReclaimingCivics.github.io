@@ -12,6 +12,9 @@ Reclaiming Civics is the humble assertion that there is a better way. We will us
 
 Strategically, crucial dialogue skills may most affect regions that marginally voted for the man who did not win the popular vote. Making political dialogue safe (again?) is a worthwhile goal in its own right. Converting red to blue districts is a very worthwhile goal as well.
 
+# For Help Talking About Politics
+
+<a target="_blank" href="https://goo.gl/forms/fgzQrwV0LZRePQT62">Submit your question</a> and I will answer as soon as I can.
 
 # Principles of Respectful, Effective Dialogue
 
