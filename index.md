@@ -32,7 +32,7 @@ Strategically, crucial dialogue skills may most affect regions that marginally v
 First and foremost, I need **participants** in any form!
 
 * Email me personally (dan@reclaimingcivics.org).
-* Join [/r/ReclaimingCivics](http://reddit.com/r/reclaimingcivics) and post avidly.
+* Join <a target="_blank" href="http://reddit.com/r/ReclaimingCivics>/r/ReclaimingCivics]</a> and post avidly.
 * Stay tuned for forthcoming projects.
 
 
@@ -43,15 +43,15 @@ All talent is needed!
 * **Google Sheets and App Scripts developers**: it is a powerful technology by now with a fantastic Civics API available. If you are looking for a hacking project, you can run with this.
 * **Civics API developer**
 * **Front-end or mobile developer**: we may be able to increase engagement by making this site richer than a static one.
-* **Marketing** *: Any and all promotion, including display ads
-* **Social media** *: Manage Facebook group, Twitter handle, Reddit moderation, and anything else
+* **Marketing** : Any and all promotion, including display ads
+* **Social media** : Manage Facebook group, Twitter handle, Reddit moderation, and anything else
 * **Data science and journalism**: Justify this is all worthwhile. Identify size of "swayable conservatives" market. Study network of connections from Coastal hubs to Middle America works. Promote via publication.
 * **Being diverse**: This work is, as of 2/11, mostly that of a man who is white, and therefore should not be given too much trust in training other whites how to talk about race.
 
 
 # Other organizations
 
- * [IndivisibleGuide](indivisibleguide.com)
+<a target="_blank" href="http://indivisibleguide.com">Indivisible Guide</a>
 
 # Call to actions you can share
 

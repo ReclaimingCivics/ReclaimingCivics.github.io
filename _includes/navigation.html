@@ -1,33 +1,26 @@
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 	<button class="dl-trigger">Open Menu</button>
 	<ul class="dl-menu">
-	
 		{% if site.owner.email %}<li>
 			<a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
 		</li>{% endif %}
 		{% if site.owner.twitter %}<li>
-				<a href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+			<a href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
 		</li>{% endif %}
 		{% if site.owner.facebook %}<li>
-				<a href="http://facebook.com/{{ site.owner.facebook }}" target="_blank"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
+			<a href="http://facebook.com/{{ site.owner.facebook }}" target="_blank"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
 		</li>{% endif %}
 		{% if site.owner.reddit %}<li>
-				<a href="http://reddit.com/r/{{ site.owner.reddit }}" target="_blank"><i class ="fa fa-fw fa-reddit"></i> Reddit</a>
+			<a href="http://reddit.com/r/{{ site.owner.reddit }}" target="_blank"><i class ="fa fa-fw fa-reddit"></i> Reddit</a>{% endif %}
 		{% if site.owner.github %}<li>
-				<a href="http://github.com/{{ site.owner.github }}" target="_blank"><i class="fa fa-fw fa-github" ></i> GitHub</a>
+			<a href="http://github.com/{{ site.owner.github }}" target="_blank"><i class="fa fa-fw fa-github" ></i> GitHub</a>
 		</li>{% endif %}
 		{% if site.owner.instagram %}<li>
-				<a href="http://instagram.com/{{ site.owner.instagram }}" target="_blank"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+			<a href="http://instagram.com/{{ site.owner.instagram }}" target="_blank"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
 		</li>{% endif %}
 		{% if site.owner.tumblr %}<li>
-				<a href="http://{{ site.owner.tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr" target="_blank"></i> Tumblr</a>
+			<a href="http://{{ site.owner.tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr" target="_blank"></i> Tumblr</a>
 		</li>{% endif %}
-	
-		{% if site.posts.length > 0 %}
-		<li>
-			<a href="{{ site.url }}/posts/">Posts</a>
-		</li>
-		{% endif %}
 		{% for link in site.data.navigation %}
 	    {% if link.url contains 'http' %}
 	        {% assign domain = '' %}
