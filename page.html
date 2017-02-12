@@ -1,4 +1,3 @@
-<!doctype html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
@@ -19,11 +18,8 @@
     <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
-{% endif %}
-
-<div id="main" role="main">
-  <article class="hentry">
-    <header class="header-title">
+{% elif page.image.background %}
+<header class="header-title">
       <div class="header-title-wrap">
         <h1 class="entry-title">{{ page.title }}</h1>
         {% if site.reading_time %}
@@ -35,6 +31,15 @@
         {% endif %}
       </div><!-- /.header-title-wrap -->
     </header>
+</div>
+
+
+{% endif %}
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    
     <div class="entry-content">
       {{ content }}
       <footer class="entry-meta">

@@ -1,20 +1,15 @@
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
-title : Daniel Echlin's Homepage
-description: Well-documented personal site
-image:
-  feature: shutterstock_lake_serene.jpg
-  credit: Shutterstock, with help from Lake Serene, Washington
+title : Reclaiming Civics
+description: Replacing political argument with political dialogue for more respectful, effective communication
 owner :
-  name: Daniel Echlin
-  email: djechlin@gmail.com
-  bio: "New York / Brooklyn based Googler and computer science student. I enjoy hiking, bouldering, writing, and piano performances."
-  github: djechlin
-  twitter: djechlin
-  stackexchange: 1413944/djechlin
-  linkedin: djechlin
-  avatar: https://s.gravatar.com/avatar/76aa5ba88e0d95b6480113239fe50008?s=200
+  name: Reclaiming Civics
+  email: todo
+  bio: todo
+  github: ReclaimingCivics
+  reddit: /r/ReclaimingCivics
+  twitter: ReclaiminrCivics
 
 markdown: redcarpet
 redcarpet:
