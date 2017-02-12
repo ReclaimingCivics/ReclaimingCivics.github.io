@@ -3,12 +3,12 @@
 	<ul class="dl-menu">
 		<li><a href="{{ site.url }}/">Home</a></li>
 		<li>
-			<img src="{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
+			{% if site.owner.avatar %}<img src="{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo"> {% endif %}
 			<h4>{{ site.owner.name }}</h4>
 			<p>{{ site.owner.bio }}</p>
 		</li>
 		<li>
-			<a href="#">Profiles</a>
+			<a href="#">Social Media</a>
 			<ul class="dl-submenu">
 				{% if site.owner.email %}<li>
 					<a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
@@ -42,9 +42,11 @@
 				</li>{% endif %}
 			</ul>
 		</li>
+		{% if site.posts.length > 0 %}
 		<li>
 			<a href="{{ site.url }}/posts/">Posts</a>
 		</li>
+		{% endif %}
 		{% for link in site.data.navigation %}
 	    {% if link.url contains 'http' %}
 	        {% assign domain = '' %}
