@@ -32,7 +32,7 @@ Strategically, crucial dialogue skills may most affect regions that marginally v
 First and foremost, I need **participants** in any form!
 
 * Email me personally (dan@reclaimingcivics.org).
-* Join <a target="_blank" href="http://reddit.com/r/ReclaimingCivics>/r/ReclaimingCivics]</a> and post avidly.
+* Join <a target="_blank" href="http://reddit.com/r/ReclaimingCivics">/r/ReclaimingCivics</a> and post avidly.
 * Stay tuned for forthcoming projects.
 
 
