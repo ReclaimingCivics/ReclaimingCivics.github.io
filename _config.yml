@@ -2,6 +2,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
 title : Reclaiming Civics
+image:
+  feature: shutterstock_465700832.jpg
 description: Replacing political argument with political dialogue for more respectful, effective communication
 owner :
   name: Reclaiming Civics
